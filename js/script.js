@@ -1,6 +1,7 @@
 const celsiusInput = document.getElementById('celsius_inp');
 const fahrenheitInput = document.getElementById('fahrenheit_inp');
 const kelvinInput = document.getElementById('kelvin_inp');
+const resetButton = document.getElementById('reset_btn');
 
 function roundNum(num){
   return Math.round(num*100)/100;
@@ -30,10 +31,17 @@ function kelvinToCelsiusAndFahrenheit(){
   fahrenheitInput.value = roundNum(fTemp);
 }
 
+function resetTemperature(){
+  celsiusInput.value = '';
+  fahrenheitInput.value = '';
+  kelvinInput.value = '';
+}
+
 function main(){
   celsiusInput.addEventListener('input', celsiusToFahrenheitAndKelvin);
   fahrenheitInput.addEventListener('input', fahrenheitToCelsiusAndKelvin);
   kelvinInput.addEventListener('input', kelvinToCelsiusAndFahrenheit);
+  resetButton.addEventListener('click', resetTemperature);
 }
 
 main();
