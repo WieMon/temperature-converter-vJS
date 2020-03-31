@@ -43,6 +43,9 @@ input[type=number] {
   border-radius: 5px;
   font-size: 26px;
   color: #c44569;
+  ::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
 }
 
 .reset_div {
