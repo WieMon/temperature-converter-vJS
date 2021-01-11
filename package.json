@@ -25,10 +25,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "http-proxy": "^1.18.1",
     "ini": "^2.0.0",
-    "object-path": "^0.11.5"
+    "object-path": "^0.11.5",
+    "yargs-parser": "^20.2.4"
   },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
