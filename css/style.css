@@ -5,80 +5,27 @@
 /*=============================
           Global
 ==============================*/
-*, *::before, *::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+*, *::before, *::after { padding: 0; margin: 0; box-sizing: border-box; }
 
-body {
-  background-color: #778beb;
-  font-family: "Asap", sans-serif;
-}
+body { background-color: #778beb; font-family: "Asap", sans-serif; }
 
 /*=============================
           Converter
 ==============================*/
-header {
-  padding: 20px 0 0 0;
-  text-align: center;
-  color: #ffff;
-  text-shadow: 1px 1px #c44569;
-}
+header { padding: 20px 0 0 0; text-align: center; color: #ffff; text-shadow: 1px 1px #c44569; }
 
-header h1 {
-  font-size: 38px;
-}
+header h1 { font-size: 38px; }
 
-header p {
-  padding: 10px;
-  font-size: 26px;
-}
+header p { padding: 10px; font-size: 26px; }
 
-.container {
-  padding: 20px;
-  text-align: center;
-}
+.container { padding: 20px; text-align: center; }
 
-.temperature_div {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  padding: 5px;
-}
+.temperature_div { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; padding: 5px; }
 
-label {
-  margin: 20px 0 10px 0;
-  font-size: 20px;
-  color: #ffff;
-}
+label { margin: 20px 0 10px 0; font-size: 20px; color: #ffff; }
 
-input {
-  width: 450px;
-  height: 100px;
-  margin: 0 auto;
-  text-align: center;
-  border: 1px solid #c44569;
-  border-radius: 5px;
-  font-size: 26px;
-  color: #c44569;
-  outline: none;
-}
+input { width: 450px; height: 100px; margin: 0 auto; text-align: center; border: 1px solid #c44569; border-radius: 5px; font-size: 26px; color: #c44569; outline: none; }
 
-.reset_div {
-  padding: 40px;
-}
+.reset_div { padding: 40px; }
 
-#reset_btn {
-  width: 200px;
-  height: 60px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 2px 2px 4px #c44569;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: #c44569;
-  outline: none;
-}
-/*# sourceMappingURL=style.css.map */
+#reset_btn { width: 200px; height: 60px; border: none; border-radius: 5px; box-shadow: 2px 2px 4px #c44569; font-size: 20px; text-transform: uppercase; color: #c44569; outline: none; }
