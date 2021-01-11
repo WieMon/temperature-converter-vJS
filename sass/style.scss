@@ -1,5 +1,17 @@
+/*=============================
+          Variables
+==============================*/
 @import url("https://fonts.googleapis.com/css?family=Asap:400,700&display=swap&subset=latin-ext");
 
+$font-family: 'Asap', sans-serif;
+$color-blue: #778beb;
+$color-red: #c44569;
+$color-light: #ffff;
+$border-radius: 5px;
+
+/*=============================
+          Global
+==============================*/
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -7,15 +19,18 @@
 }
 
 body {
-  background-color: #778beb;
-  font-family: 'Asap', sans-serif;
+  background-color: $color-blue;
+  font-family: $font-family;
 }
 
+/*=============================
+          Converter
+==============================*/
 header {
   padding: 20px;
   text-align: center;
-  color: #ffff;
-  text-shadow: 1px 1px #c44569;
+  color: $color-light;
+  text-shadow: 1px 1px $color-red;
   h1 {
     font-size: 38px;
   }
@@ -31,7 +46,7 @@ header {
 }
 
 .temperature_div {
-  padding: 3px;
+  padding: 5px;
 }
 
 input[type=number] {
@@ -39,14 +54,11 @@ input[type=number] {
   height: 100px;
   margin: 0 auto;
   text-align: center;
-  border: 1px solid #c44569;
-  border-radius: 5px;
+  border: 1px solid $color-red;
+  border-radius: $border-radius;
   font-size: 26px;
-  color: #c44569;
-  ::-webkit-inner-spin-button {
-    display: none;
-    -webkit-appearance: none;
-  }
+  color: $color-red;
+  outline: none;
 }
 
 .reset_div {
@@ -57,8 +69,10 @@ input[type=number] {
   width: 200px;
   height: 60px;
   border: none;
-  border-radius: 5px;
-  box-shadow: 2px 2px 4px #c44569;
+  border-radius: $border-radius;
+  box-shadow: 2px 2px 4px $color-red;
   font-size: 20px;
-  color: #c44569;
+  text-transform: uppercase;
+  color: $color-red;
+  outline: none;
 }

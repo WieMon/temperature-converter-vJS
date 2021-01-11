@@ -1,4 +1,10 @@
+/*=============================
+          Variables
+==============================*/
 @import url("https://fonts.googleapis.com/css?family=Asap:400,700&display=swap&subset=latin-ext");
+/*=============================
+          Global
+==============================*/
 *, *::before, *::after {
   padding: 0;
   margin: 0;
@@ -7,9 +13,12 @@
 
 body {
   background-color: #778beb;
-  font-family: 'Asap', sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
+/*=============================
+          Converter
+==============================*/
 header {
   padding: 20px;
   text-align: center;
@@ -32,7 +41,7 @@ header p {
 }
 
 .temperature_div {
-  padding: 3px;
+  padding: 5px;
 }
 
 input[type=number] {
@@ -44,11 +53,7 @@ input[type=number] {
   border-radius: 5px;
   font-size: 26px;
   color: #c44569;
-}
-
-input[type=number] ::-webkit-inner-spin-button {
-  display: none;
-  -webkit-appearance: none;
+  outline: none;
 }
 
 .reset_div {
@@ -62,6 +67,8 @@ input[type=number] ::-webkit-inner-spin-button {
   border-radius: 5px;
   box-shadow: 2px 2px 4px #c44569;
   font-size: 20px;
+  text-transform: uppercase;
   color: #c44569;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
