@@ -27,7 +27,7 @@ body {
           Converter
 ==============================*/
 header {
-  padding: 20px;
+  padding: 20px 0 0 0;
   text-align: center;
   color: $color-light;
   text-shadow: 1px 1px $color-red;
@@ -41,16 +41,24 @@ header {
 }
 
 .container {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
 .temperature_div {
+  display: flex;
+  flex-direction: column;
   padding: 5px;
 }
 
-input[type=number] {
-  width: 500px;
+label {
+  margin: 20px 0 10px 0;
+  font-size: 20px;
+  color: $color-light;
+}
+
+input {
+  width: 450px;
   height: 100px;
   margin: 0 auto;
   text-align: center;

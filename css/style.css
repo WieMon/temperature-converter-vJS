@@ -20,7 +20,7 @@ body {
           Converter
 ==============================*/
 header {
-  padding: 20px;
+  padding: 20px 0 0 0;
   text-align: center;
   color: #ffff;
   text-shadow: 1px 1px #c44569;
@@ -36,16 +36,26 @@ header p {
 }
 
 .container {
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
 .temperature_div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   padding: 5px;
 }
 
-input[type=number] {
-  width: 500px;
+label {
+  margin: 20px 0 10px 0;
+  font-size: 20px;
+  color: #ffff;
+}
+
+input {
+  width: 450px;
   height: 100px;
   margin: 0 auto;
   text-align: center;
