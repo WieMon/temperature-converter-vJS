@@ -1,4 +1,4 @@
-# temperature-converter-vJS
+# temperature-converter
 
 ## Description:
 The temperature converter for Celsius (°C), Fahrenheit (°F) and Kelvin (°K) built in vanilla JavaScript.
